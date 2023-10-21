@@ -1,0 +1,86 @@
+/* Comment goes here */
+
+body {
+    background-color: GhostWhite;
+    padding: 15px;
+    margin: 15px;
+}
+
+.header {
+    background-color: Lavender;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+
+/*GENERAL LINKS*/
+
+a:link, a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+/*TABLES*/
+table, th, td {
+    /*border: 1px solid;*/
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    background-color: Lavender;
+}
+
+tr {border-bottom: 1px solid #ddd;}
+
+
+/*MENU LISTS*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111111;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='grey'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='grey'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+}
